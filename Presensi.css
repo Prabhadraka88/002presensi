@@ -1,0 +1,98 @@
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.nama-sekolah {
+    font-family:'Franklin Gothic Medium' ;
+    font-size: 40px;
+    position:absolute;
+    margin: -68px 120px;
+}
+
+.presensi {
+   font-family: 'Franklin Gothic Medium';
+   margin-left: 19.5%;
+}
+.container2 {
+    display: flex;
+    margin-top: 25px !important;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+.sidebar{
+    
+    width: 19%;
+    margin-left: 10px;
+    margin-top: -5%;
+    justify-content: center;
+    text-align: center;
+     
+}
+.conten {
+    
+    background-color: #96D9E9;
+    width: 78%; 
+    height: 790px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center; 
+    margin-top: -1.5%;
+    margin-left: -8px;
+    
+    
+}
+
+.sidebar img {
+    width: 165px;
+    height: 160px;
+    border-radius: 50%;
+    
+}
+
+.dashboard, .pribadi-my-3, .qr {
+    margin: 10% 35px;
+    padding-top: 0.8%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    
+    
+}
+
+.beranda {
+    display: flex; 
+    color: black; 
+    text-decoration: none;
+    ;
+}
+.beranda:hover {
+    background-color: #1111;
+    border-radius: 50px;
+    padding: auto 20px;
+    margin-left:35%;
+
+}
+    
+
+.nama1 {
+    display: flex;
+    margin-top: 1.5%;
+    color: white;
+    
+}
+
+.garis{
+    width: 100%;         /* Lebar garis */
+      height: 2px;         /* Ketebalan garis */
+      background-color: #000000; /* Warna garis */
+      margin-top: 15px;
+      margin-bottom: 20px;
+}
